@@ -1,0 +1,50 @@
+.typeahead-element {
+    border: 1px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    align-items: center;
+}
+
+.typeahead-element > .typeahead-element-content {
+    padding: 2px 4px;
+}
+
+.typeahead-element > button {
+    background: none;
+    border: none;
+    vertical-align: center;
+    border-left: 1px solid black;
+}
+
+.typeahead-elements > * {
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+.typeahead-input, .typeahead-input:focus, .typeahead-input:focus-visible{
+    border: none;
+    outline: none;
+}
+
+.typeahead-container {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 4px 4px 0px 4px;
+}
+
+.typeahead-options-container {
+    position: absolute;
+    width: 100%;
+    padding: 4px 4px 0 4px;
+    z-index: 999;
+    border: 1px solid black;
+    border-radius: 2px;
+    background: white;
+}
+
+.typeahead-options-container > .typeahead-option {
+    border: 1px solid black;
+    padding: 2px 4px;
+    border-radius: 2px;
+    margin-bottom: 4px;
+}
